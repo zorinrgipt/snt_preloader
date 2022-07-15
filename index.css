@@ -54,7 +54,7 @@ margin-right: auto;
 margin-bottom: 10vh;
 height:auto;
 }
-#preloader{
+#preloade{
   display: block;
   width:100vw;
   height:auto;
@@ -80,15 +80,18 @@ img{
   /* width:50vw; */
 
 }
+
 @media only screen and (max-width: 650px) {
   img{
 
     width:50vw;
-    /* width:50vw; */
-
+  }
+  .box1 .animation-container{
+    display:none;
   }
   .box1{
     margin-top: 20vh;
+    /* display: none; */
   }
   .container{
     width:30vw;
